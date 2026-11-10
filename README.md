@@ -40,8 +40,10 @@ flutter test
 
 The main challenge was keeping the screen usable in both orientations without duplicating its controls. A shared details section is placed in a portrait `ListView` or in the right hand landscape `ListView`. Another challenge was keeping theme and star changes visible immediately; the app listens to the same `CruiseViewModel` at the app and screen levels.
 
-## Submission screenshots
+## Android Studio evidence
 
-Capture these from a running emulator or browser: project structure, portrait light theme, landscape split view, open date picker, star count before and after a tap, and dark theme. Add the screenshots and this reflection to your submission PDF. Publish the project to your own public GitHub repository and add its URL to that PDF.
+The app was built and run on the Pixel 5 API 34 emulator in Android Studio. Genuine Android screenshots and the four-page submission PDF are in `submission/`. The PDF shows the MVVM project structure, portrait layout, landscape split view, open date picker, star count before and after a tap, dark theme, and a short reflection.
 
+Public source repository: https://github.com/peigiii/rajang-river-cruise-lab03
 The header includes a local photograph of the Rajang River in Sibu by [Cerevisae](https://commons.wikimedia.org/wiki/File:Sibu_Rajang_river_view_from_Tua_Pek_Kong_temple.jpg), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). It is displayed with a fitted crop in the app.
+
