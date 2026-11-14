@@ -51,11 +51,4 @@ inspect.js
 
 
 /android/build/
-# Earlier browser-only captures are kept locally but excluded from the Android submission
-/submission/screenshots/dark-theme.png
-/submission/screenshots/date-picker.png
-/submission/screenshots/debug.png
-/submission/screenshots/landscape.png
-/submission/screenshots/portrait-light.png
-/submission/screenshots/star-after.png
 
